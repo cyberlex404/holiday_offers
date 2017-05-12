@@ -182,7 +182,7 @@ class HolidayOffer extends ContentEntityBase implements HolidayOfferInterface {
       ])
       ->setDefaultValue('')
       ->setDisplayOptions('view', [
-        'label' => 'above',
+        'label' => 'hidden',
         'type' => 'string',
         'weight' => -4,
       ])
