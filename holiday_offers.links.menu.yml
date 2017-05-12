@@ -1,0 +1,14 @@
+
+# Holiday offer menu items definition
+entity.holiday_offer.collection:
+  title: 'Holiday offer list'
+  route_name: entity.holiday_offer.collection
+  description: 'List Holiday offer entities'
+  parent: system.admin_structure
+  weight: 100
+
+holiday_offer.admin.structure.settings:
+  title: Holiday offer settings
+  description: 'Configure Holiday offer entities'
+  route_name: holiday_offer.settings
+  parent: system.admin_structure

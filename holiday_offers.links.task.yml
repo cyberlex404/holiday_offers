@@ -1,0 +1,22 @@
+# Holiday offer routing definition
+holiday_offer.settings_tab:
+  route_name: holiday_offer.settings
+  title: 'Settings'
+  base_route: holiday_offer.settings
+
+entity.holiday_offer.canonical:
+  route_name: entity.holiday_offer.canonical
+  base_route: entity.holiday_offer.canonical
+  title: 'View'
+
+entity.holiday_offer.edit_form:
+  route_name: entity.holiday_offer.edit_form
+  base_route: entity.holiday_offer.canonical
+  title: 'Edit'
+
+entity.holiday_offer.delete_form:
+  route_name:  entity.holiday_offer.delete_form
+  base_route:  entity.holiday_offer.canonical
+  title: Delete
+  weight: 10
+

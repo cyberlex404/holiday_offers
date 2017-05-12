@@ -1,0 +1,7 @@
+name: Holiday offers
+type: module
+description: Holiday offers catalog
+core: 8.x
+package: Holiday
+dependencies:
+  - views

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains holiday_offers.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function holiday_offers_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the holiday_offers module.
+    case 'help.page.holiday_offers':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Holiday offers catalog') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function holiday_offers_theme() {
+  return [
+    'holiday_offers' => [
+      'render element' => 'children',
+    ],
+  ];
+}

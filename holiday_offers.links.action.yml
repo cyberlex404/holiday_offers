@@ -1,0 +1,5 @@
+entity.holiday_offer.add_form:
+  route_name: entity.holiday_offer.add_form
+  title: 'Add Holiday offer'
+  appears_on:
+    - entity.holiday_offer.collection

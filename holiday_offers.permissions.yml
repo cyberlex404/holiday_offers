@@ -1,0 +1,22 @@
+add holiday offer entities:
+  title: 'Create new Holiday offer entities'
+
+administer holiday offer entities:
+  title: 'Administer Holiday offer entities'
+  description: 'Allow to access the administration form to configure Holiday offer entities.'
+  restrict access: true
+
+delete holiday offer entities:
+  title: 'Delete Holiday offer entities'
+
+edit holiday offer entities:
+  title: 'Edit Holiday offer entities'
+
+access holiday offer overview:
+  title: 'Access the Holiday offer overview page'
+
+view published holiday offer entities:
+  title: 'View published Holiday offer entities'
+
+view unpublished holiday offer entities:
+  title: 'View unpublished Holiday offer entities'
