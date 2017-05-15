@@ -1,0 +1,8 @@
+
+holiday_offers.new_offer:
+  path: '/offers/new'
+  defaults:
+    _form: '\Drupal\holiday_offers\Form\NewOffer'
+    _title: 'NewOffer'
+  requirements:
+    _access: 'TRUE'
